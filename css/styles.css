@@ -63,4 +63,21 @@ header {
 .jumbotron {
   background-image: url("../nyc.jpg");
   background-size: cover;
+  height:100%;
+  background-position-x: 0;
+}
+
+.banner-text {
+  padding: 5% 0 0 20%;
+  color: midnightblue;
+}
+
+.banner-text h1 {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 700px) {
+  .jumbotron {
+    background-position-x: -100px;
+  }
 }
