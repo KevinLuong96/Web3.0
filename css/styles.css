@@ -1,0 +1,66 @@
+*{
+  box-sizing:border-box;
+}
+
+@font-face{
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face{
+  font-family: "BebasNeueLight";
+  src: url("../fonts/BebasNeueLight.otf");
+}
+
+body{
+  font-family: OpenSans;
+  height: 100vh;
+}
+
+h1{
+  font-weight: normal;
+  margin: 0;
+}
+
+h2{
+  font-weight: normal;
+  margin: 0.25em 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin:0;
+}
+
+.columns {
+  display: flex;
+}
+
+.main {
+  margin-left: 10%;
+  width: 80%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.jumbotron {
+  background-image: url("../nyc.jpg");
+  background-size: cover;
+}
