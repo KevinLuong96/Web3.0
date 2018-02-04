@@ -76,8 +76,26 @@ header {
   font-size: 45px;
 }
 
+.flex-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  font-size: 75px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.blink {
+  height: 75px;
+  width: 1px;
+  background-color: black;
+}
+
 @media screen and (max-width: 700px) {
   .jumbotron {
     background-position-x: -100px;
   }
 }
+
