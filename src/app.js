@@ -14,4 +14,3 @@ $(document).ready(function () {
    },500);
 });
 
-import React
