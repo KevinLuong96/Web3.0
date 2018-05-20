@@ -13,3 +13,5 @@ $(document).ready(function () {
        $(".blink").toggle()
    },500);
 });
+
+import React
