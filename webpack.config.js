@@ -2,6 +2,11 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const webpack = require('webpack')
+
+
+const mode = process.env.WEBPACK_SERVE ? 'development' : 'production';
+const scssLoader = mode === 'development' ? "style-loader" :  MiniCssExtractPlugin.loader;
 
 module.exports = {
     entry: "./main.js",
@@ -9,12 +14,6 @@ module.exports = {
     output: {
         path: path.join(__dirname, "dist") ,
         filename: "bundle.js"
-    },
-    devServer: {
-        contentBase: __dirname + '/src',
-        port: 3000,
-        historyApiFallback: true,
-        hot: true
     },
     plugins: [
         new MiniCssExtractPlugin({
@@ -25,8 +24,8 @@ module.exports = {
             template: "template.html"
         }),
         new CopyWebpackPlugin([
-            { from: './images/*', to: './dist/images/' },
-        ],)
+            { from: './images/*', to: './' },
+        ],),
     ],
     module: {
         rules: [
@@ -38,15 +37,21 @@ module.exports = {
                 },
             },
             {
-                test: /\.css$/,
+                test: /\.(scss|css)$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    "css-loader"
+                    // MiniCssExtractPlugin.loader,
+                    // "style-loader",
+                    scssLoader,
+                    "css-loader",
+                    "sass-loader"
                 ]
             },
             {
-                test: /\.(png|woff|woff2|eot|ttf|svg|jp(e*)g)$/,
+                test: /\.(png|woff|woff2|eot|otf|ttf|svg|jp(e*)g)$/,
                 loader: 'url-loader',
+                options: {
+                    limit: 8192
+                }
             },
         ],
     },

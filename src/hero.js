@@ -13,7 +13,9 @@ export default class Hero extends React.Component {
     render() {
         return (
             <HeroStyles>
-                <Background src="./img/nyc.jpg"></Background>
+                <Background src="./images/nyc.jpg"></Background>
+                <h2>Hi</h2>
+
             </HeroStyles>
         )
     }
