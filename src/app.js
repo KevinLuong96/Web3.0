@@ -1,16 +1,13 @@
-$(document).ready(function () {
-   var text = "hello!";
-   counter = 0;
-   var addText = setInterval(function() {
-       $(".intro").html(text.substring(0, counter+1));
-       counter++;
-       if(counter == text.length) {
-           clearInterval(addText)
-       }
-   }, 250);
+import React from "react";
+import Hero from "./hero";
 
-   setInterval(function () {
-       $(".blink").toggle()
-   },500);
-});
-
+export default class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>Hello!</h1>
+                <Hero/>
+            </div>
+        )
+    }
+}
