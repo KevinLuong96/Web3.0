@@ -13,7 +13,8 @@ export default class Work extends React.Component {
                                 <h3>Correlation One</h3>
                                 <h3>New York, New York</h3>
                             </div>
-                            <h4>Architected and created a full stack web application for a social media platform aiming to keep Datathon winners connected to themselves and C1</h4>
+                            <h4>At Correlation One, I created an exlusive social media platform for the winners of our Datathons to help keep them connected to each other and Correlation One.
+                            This involved creating a full stack web application, dev-opsing all of the necessary Google Cloud stack and writing unit and integration tests.</h4>
                             <ul>
                                 <li className="bullet">Built test driven front end features such as profile picture upload utilizing React, Redux, RxJS and Redux-Observable</li>
                                 <li className="bullet">Developed microservice architecture based RESTful API using Golang</li>
