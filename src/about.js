@@ -7,12 +7,13 @@ export default class About extends React.Component {
                 <div className="profile">
                     <img className="profile-picture" src="../images/profile.jpg"/>
                     <div className="about-text">
-                        <h1 style={{"text-align": "center"}}>Hi!</h1>
-                        <h2 style={{"text-align": "center"}}>Welcome to my site</h2>
+                        <h1>Hi!</h1>
+                        <h2>Welcome to my site</h2>
                         <h2>My name is Kevin and I'm a 3A Systems Design Engineering Student at the University of Waterloo</h2>
-
                     </div>
                 </div>
+                <h1 style={{"textAlign": "center", padding: "50px 0", width:"100%"}}>
+                    I'm also an aspiring Full-Stack Software Engineer</h1>
             </div>
         )
     }

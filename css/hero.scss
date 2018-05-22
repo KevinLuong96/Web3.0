@@ -12,12 +12,12 @@
 .typewriter {
   position:absolute;
   z-index: 1;
-  color: whitesmoke;
+  color: #F6F9Fd;
   top: 30%;
   left: 5%;
   font-size: 5em;
   display: inline;
-  border-right: .05em solid white;
+  border-right: .05em solid #F6F9Fd;
   animation: blink .75s step-end infinite;
 }
 
@@ -25,9 +25,9 @@
   z-index: 5;
   width:100%;
   position: absolute;
-  color: white;
+  color: #F6F9Fd;
   font-size: 5em;
-  background: black;
+  background: #0e4177;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -36,12 +36,13 @@
 }
 
 .fa-spinner {
+  color: #F6F9Fd;
   animation: spin 3s linear infinite;
 }
 
 @keyframes blink {
   from, to { border-color: transparent }
-  50% { border-color: white; }
+  50% { border-color: #F6F9Fd; }
 }
 
 @keyframes spin {

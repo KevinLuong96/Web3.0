@@ -1,7 +1,15 @@
 .about {
-  width: 80%;
   margin: auto;
   padding: 25px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #0e4177;
+}
+
+.about * {
+  color: #F6F9Fd;
 }
 
 .profile-picture {
@@ -16,6 +24,7 @@
 }
 
 .about-text {
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

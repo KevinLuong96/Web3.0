@@ -1,0 +1,43 @@
+.work {
+  background: #F6F9Fd;
+}
+
+.work * {
+  color: #0e4177;
+}
+
+.work-title {
+  text-align: center;
+  padding: 50px 0 ;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.company h4 {
+  margin: 5px 0;
+}
+
+.company-logo {
+  height: 250px;
+  width: 250px;
+  padding-right: 25px;
+}
+
+.company-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bullet {
+  list-style-type: square;
+  margin-left: 20px;
+}
