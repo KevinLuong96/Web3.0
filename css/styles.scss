@@ -1,4 +1,6 @@
 @import "./normalize.scss";
+@import "./hero";
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 
 *{
   box-sizing:border-box;
@@ -35,69 +37,5 @@ a{
 
 p{
   margin:0;
-}
-
-.columns {
-  display: flex;
-}
-
-.main {
-  margin-left: 10%;
-  width: 80%;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 10%;
-  height: 100%;
-  position: fixed;
-}
-
-.main-nav {
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-  justify-content: space-around;
-}
-
-.jumbotron {
-  background-image: url("../images/nyc.jpg");
-  background-size: cover;
-  height:100%;
-  background-position-x: 0;
-}
-
-.banner-text {
-  padding: 5% 0 0 20%;
-  color: midnightblue;
-}
-
-.banner-text h1 {
-  font-size: 45px;
-}
-
-.flex-centered {
-  display: flex;
-  justify-content: center;
-}
-
-.intro {
-  font-size: 75px;
-  margin-bottom: 25px;
-  display: inline-block;
-}
-
-.blink {
-  height: 75px;
-  width: 1px;
-  background-color: black;
-}
-
-@media screen and (max-width: 700px) {
-  .jumbotron {
-    background-position-x: -100px;
-  }
 }
 
