@@ -1,5 +1,6 @@
 @import "./normalize.scss";
 @import "./hero";
+@import "./about";
 @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 
 *{
@@ -37,5 +38,9 @@ a{
 
 p{
   margin:0;
+}
+
+.app {
+  background-color: #F6F9Fd;
 }
 

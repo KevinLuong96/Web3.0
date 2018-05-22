@@ -12,12 +12,12 @@
 .typewriter {
   position:absolute;
   z-index: 1;
-  color: white;
+  color: whitesmoke;
   top: 30%;
   left: 5%;
   font-size: 5em;
   display: inline;
-  border-right: .05em solid currentColor;
+  border-right: .05em solid white;
   animation: blink .75s step-end infinite;
 }
 
@@ -41,7 +41,7 @@
 
 @keyframes blink {
   from, to { border-color: transparent }
-  50% { border-color: currentColor; }
+  50% { border-color: white; }
 }
 
 @keyframes spin {
