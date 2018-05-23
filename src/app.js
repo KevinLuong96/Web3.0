@@ -12,7 +12,7 @@ export default class App extends React.Component {
                 <Hero/>
                 <About/>
                 <Work/>
-                <Contact/>
+                {/*<Contact/>*/}
             </div>
         )
     }

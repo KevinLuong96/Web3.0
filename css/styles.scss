@@ -14,13 +14,18 @@
   src: url("../fonts/OpenSans-Light.ttf");
 }
 
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLight.otf");
+}
+
 @font-face{
   font-family: "BebasNeueLight";
   src: url("../fonts/BebasNeueLight.otf");
 }
 
 body{
-  font-family: OpenSans;
+  font-family: Avenir;
   height: 100vh;
 }
 
