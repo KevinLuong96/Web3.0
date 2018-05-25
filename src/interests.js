@@ -31,7 +31,7 @@ export default class Interests extends React.Component {
                         <i class="fas fa-user-tie interest-icon"></i>
                     </div>
                     <h3>Men's fashion has been a cyclical interest of mine, but has sprung back up in my life after my last term in New York. Recently I've
-                        been going outside of my comfort zone and exploring streetwear and baggy fits. If you like my outfit or I look like straight trash, let me know, I need to know what works or not.</h3>
+                        been going outside of my comfort zone and exploring streetwear and baggy fits. If you like my outfit or I look like straight trash, let me know! I would appreciate the feedback.</h3>
                 </div>
             </div>
         )
