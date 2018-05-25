@@ -25,6 +25,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: './images/*', to: './' },
+            { from: './resume.pdf', to: './' },
         ],),
     ],
     module: {
