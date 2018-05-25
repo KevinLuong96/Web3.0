@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
         return (
             <div className="contact">
                 <h1 className="contact-header">Let's Talk!</h1>
-                <h3 className="contact-text">If you have any questions about my <a className="resume" href="./resume.pdf">resume</a>, or just want to grab coffee. I would love to hear from you.</h3>
+                <h3 className="contact-text">If you have any questions about my <a className="resume" href="https://drive.google.com/file/d/1Jm9d1lLlqVdJmMjnveB6VHq5bgx7d23x/view?usp=sharing">resume</a>, or just want to grab coffee. I would love to hear from you.</h3>
                 <div className="contact-container">
                     <a href="https://github.com/kevinluong96">
                         <i className="fab fa-github contact-icon"/>
