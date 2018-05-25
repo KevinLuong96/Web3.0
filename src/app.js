@@ -3,6 +3,7 @@ import Hero from "./hero";
 import About from "./about";
 import Work from "./work";
 import Contact from "./contact";
+import Interests from "./interests";
 import "../css/styles.scss";
 
 export default class App extends React.Component {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
                 <About/>
                 <Work/>
                 <Contact/>
+                <Interests/>
             </div>
         )
     }
