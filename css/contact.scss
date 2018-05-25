@@ -1,11 +1,17 @@
 .contact {
   min-height: 100vh;
+  background: #111d33;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
+.contact-header {
+  color: #F6F9Fd;
+  margin-top: 100px;
+}
 .contact-container {
   width: 70%;
   margin: auto;
+  background: #F6F9Fd;
 }
