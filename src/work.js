@@ -13,15 +13,10 @@ export default class Work extends React.Component {
                                 <h3>Correlation One</h3>
                                 <h3>New York, New York</h3>
                             </div>
-                            <h4>At Correlation One, I created an exlusive social media platform for the winners of our Datathons to help keep them connected to each other and Correlation One.
-                            This involved creating a full stack web application, dev-opsing all of the necessary Google Cloud stack and writing unit and integration tests.</h4>
-                            <ul>
-                                <li className="bullet">Built test driven front end features such as profile picture upload utilizing React, Redux, RxJS and Redux-Observable</li>
-                                <li className="bullet">Developed microservice architecture based RESTful API using Golang</li>
-                                <li className="bullet">Specced out and implemented a PostgreSQL database deployed on Google Cloud Storage</li>
-                                <li className="bullet">Performed development operations to interface Google Firebase, CloudSQLPostgreSQL database and Compute Engine server</li>
-                            </ul>
-                            <h4>Designed and implemented file upload to GCS using Django and React</h4>
+                            <h4>At Correlation One, I created an exlusive social media platform for the winners of our Datathons to keep them connected to each other and Correlation One.
+                            This involved creating a full stack web application, dev-opsing all of the necessary Google Cloud stack and writing unit and integration tests. It was a lot of fun
+                            making all of these architecture decisions for interfacing data between the layers. This was written in Golang, React, Redux and PostgreSQL.</h4>
+                            <h4>I also worked on the backend for our AIGames platform enabling the feature of allowing users to upload bots to our server using Django and Google Cloud Storage</h4>
                         </div>
                     </div>
                     <div className="company">
@@ -31,9 +26,15 @@ export default class Work extends React.Component {
                                 <h3>Connected Lab</h3>
                                 <h3>Toronto, Ontario</h3>
                             </div>
-                            <h4>Created a voice interface prototyping tool using React, IBM Watson, MongoDB used by a billion dollar telecommunications client</h4>
-                            <h4>Implemented song, radio, genre, artist search for the Amazon Alexa iHeartRadio native application</h4>
-                            <h4>Created an operations portal to manage thousands of daily orders for one of Canada's largest retailers</h4>
+                            <h4>At Connected Lab, I worked on a voice interface prototyping tool created in React with MongoDB and Express on the back end. It ended up
+                            being utilized by a billion dollar Connected Lab client and gave them valuable insights into what users wanted to know and how users wanted to interact with the voice interface</h4>
+                            <h4>I also worked on the Amazon Alexa skill for iHeartRadio. The Amazon Alexa skill for iHeartRadio is actually one of the few native
+                            skills that ship with Amazon Alexa, and it allowed users to ask Amazon Alexa to play songs or radio by artists. This involved interfacing the
+                            Amazon Alexa and iHeartRadio song APIs.</h4>
+                            <h4>I can't talk much about this one, but I created an operations portal for one of Canada's largest retailers using Spring, and React-Redux
+                            in order to help them manage and track thousands of daily orders across Canada</h4>
+
+
                         </div>
                     </div>
                     <div className="company">
@@ -43,8 +44,9 @@ export default class Work extends React.Component {
                                 <h3>Smart Technologies</h3>
                                 <h3>Calgary, Alberta</h3>
                             </div>
-                            <h4>Designed and implemented features a collaborative whiteboard platform servicing thousands of users per day in EmberJS</h4>
-                            <h4>Led web development of a project involving the end to end creation of a polished educational game shipped in Q1 2017</h4>
+                            <h4>At Smart Technologies, I created a feature for our online whiteboarding platform written in EmberJS that is used by thousands of teachers across Canada and the USA daily.
+                            It was very interesting to be able to bring a feature from an idea, to a design, to asking senior developers how I could implement it and then actually implementing and shipping the feature.</h4>
+                            <h4>I also lead web development on a month long project to create an education game that shipped to SmartBoards across North America in early 2017.</h4>
                         </div>
                     </div>
                 </div>
