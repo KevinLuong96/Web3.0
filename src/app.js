@@ -13,8 +13,8 @@ export default class App extends React.Component {
                 <Hero/>
                 <About/>
                 <Work/>
-                <Contact/>
                 <Interests/>
+                <Contact/>
             </div>
         )
     }

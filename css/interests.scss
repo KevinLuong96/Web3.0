@@ -1,0 +1,25 @@
+.interests {
+  min-height: 100vh;
+  background: #111d33;
+}
+
+.interests * {
+  color: #F6F9Fd;
+}
+
+.interests-header {
+  text-align: center;
+  padding: 100px;
+}
+
+.interest {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.interest-icon {
+  font-size: 5em;
+  margin-right: 15px;
+}
